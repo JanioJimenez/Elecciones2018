@@ -99,7 +99,7 @@
 		
 
 		}
-
+		
 		if($_POST['tipo'] == 'eliminar'){
 			$usuarioDAO = new UsuarioDAO();
 			$idUsuario = $_POST['idUsuario'];
